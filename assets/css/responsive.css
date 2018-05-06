@@ -1,0 +1,560 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-area .header-slider .single-header-slide-item h1 {
+	    font-size: 75px;
+	}
+
+	.testimonial-area .single-testimonial-item .content .post {
+	    font-size: 10px;
+	}
+
+	.latest-news-area .right-content .single-blog-item h4 {
+	    font-size:  18px;
+	    line-height: 28px;
+	}
+
+    
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #primary-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .responsive-menu {
+        position: relative;
+    }
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        z-index: 9;
+    }
+
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+    }
+
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #000;
+    }
+
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn {
+        margin-bottom: 23px;
+    }
+
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+        color: #333;
+    }
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #0060FF;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li, 
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li 
+    {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .navbar-area ul.slicknav_nav li.active a,
+    .navbar-area ul.slicknav_nav li:hover a {
+        color: #fff;
+    }
+    .navbar-area .logo {
+        padding: 15px;
+    }
+    .navbar-area ul.slicknav_nav li.active a:after,
+    .navbar-area ul.slicknav_nav li.active a:before,
+     .navbar-area ul.slicknav_nav li a:before,
+     .navbar-area ul.slicknav_nav li a:after
+     {
+        display: none;
+    }
+    .our-service .left-content .icon {
+        display: none;
+    }
+
+    .about-us-area .right-content {
+        margin-top: 50px;
+    }
+
+    .about-us-area .bg-text {
+        font-size: 100px;
+        bottom: -40px;
+    }
+
+    .our-angels-area {
+        padding-bottom: 120px;
+    }
+
+    .portfolio-area .bg-text {
+        font-size: 120px;
+        bottom: -40px;
+    }
+
+    .service-plan-area .left-content {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .single-testimonial-item {
+        margin-bottom: 30px;
+    }
+
+    .latest-news-area .left-content {
+        margin-bottom: 70px;
+    }
+
+    .widget {
+        margin-bottom: 50px;
+    }
+    .our-service .left-content h2 {
+        font-size: 90px;
+        line-height: 100px;
+        margin-bottom: 60px;
+    }
+    .our-service .left-content,
+    .about-us-area .left-content {
+        margin-top: 0px;
+    }
+    .navbar-area.nav-fixed {
+        position: inherit;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    #primary-menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .responsive-menu {
+        position: relative;
+    }
+
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        z-index: 9;
+    }
+
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+    }
+
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #000;
+    }
+
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+        color: #333;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn {
+        margin-bottom: 23px;
+    }
+
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+    }
+
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #0060FF;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li,
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .navbar-area ul.slicknav_nav li.active a,
+    .navbar-area ul.slicknav_nav li:hover a {
+        color: #fff;
+    }
+
+    .navbar-area .logo {
+        padding: 15px;
+    }
+
+    .navbar-area ul.slicknav_nav li.active a:after,
+    .navbar-area ul.slicknav_nav li.active a:before,
+    .navbar-area ul.slicknav_nav li a:before,
+    .navbar-area ul.slicknav_nav li a:after {
+        display: none;
+    }
+    .navbar-area .boxed-btn.blank {
+        margin-left: -50px;
+        display: inline-block;
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 18px;
+    }
+
+    .navbar-area .slicknav_menu {
+        top: 10px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .header-area .header-slider .single-header-slide-item {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    .header-area .header-slider .single-header-slide-item h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .header-area .header-slider .single-header-slide-item .header-btn-group .boxed-btn {
+        margin-bottom: 30px;
+    }
+
+    .our-service .left-content h2 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .our-service .left-content .icon {
+        display: none;
+    }
+
+    .our-service .right-content .single-service-box .content h4 {
+        font-size: 20px;
+    }
+
+    .about-us-area .right-content {
+        margin-top: 60px;
+    }
+
+    .our-angels-area .right-content h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .portfolio-area .section-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .service-plan-area .left-content h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .service-plan-area .right-content {
+        margin-top: 100px;
+    }
+
+    .service-plan-area .right-content .single-pricing-plan.active {
+        position: initial;
+        margin-top: 30px;
+    }
+
+    .service-plan-area .right-content .single-pricing-plan {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .testimonial-area .section-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .single-testimonial-item {
+        margin-bottom: 30px;
+    }
+
+    .latest-news-area .left-content .thumb .hover h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .latest-news-area .left-content .thumb .hover {
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+
+    .latest-news-area .left-content {
+        margin-bottom: 50px;
+    }
+
+    .latest-news-area .right-content .single-blog-item .meta {
+        margin-bottom: 40px;
+    }
+
+    .latest-news-area .right-content .single-blog-item .meta .category {
+        float: left;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .latest-news-area .right-content .single-blog-item h4 {
+        margin-top: 70px;
+        display: block;
+        font-size: 22px;
+    }
+
+    .footer-area .footer-top .subscription-wrapper .form-element input {
+        padding-right: 30px;
+    }
+
+    .footer-area .footer-top .subscription-wrapper .form-element input[type=submit] {
+        position: initial;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .widget {
+        margin-bottom: 40px;
+    }
+    .navbar-area.nav-fixed .slicknav_menu {
+        top: 0;
+    }
+    .about-us-area .left-content h2 {
+	    font-size: 45px;
+	}
+	.service-plan-area {
+	    padding-top:  40px;
+	    padding-bottom: 120px;
+	}
+
+	.testimonial-area {
+	    padding-bottom: 90px;
+	}
+    .navbar-area.nav-fixed{
+        position: inherit;
+    }
+}
+
+/* Wide Mobile Layout: 375px. */
+
+@media only screen and (max-width: 320px) {
+	.service-plan-area .right-content .single-pricing-plan {
+	    padding-left: 60px !important;
+	    padding-right: 60px !important;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+    .service-plan-area .right-content .single-pricing-plan {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    .header-area .header-slider .single-header-slide-item .header-bullet li {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .service-plan-area .right-content .single-pricing-plan {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media screen and (max-width: 600px) {}
